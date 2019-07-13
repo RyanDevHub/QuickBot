@@ -1,0 +1,49 @@
+<!--
+  Design Framework is Framework7.io
+  Twitter App is TweetsTool.com
+  Abuse Bot is by @JosephShenton
+  All Code in here is protected by DMCA
+-->
+<div class="page">
+  <div class="navbar">
+    <div class="navbar-inner sliding">
+      <div class="left">
+        <a href="#" class="link back">
+          <i class="icon icon-back"></i>
+          <span class="ios-only">QuickBot</span>
+        </a>
+      </div>
+      <div class="title">Retweets</div>
+    </div>
+  </div>
+  <div class="page-content">
+    <div class="block">
+      <p>What are "repeats"? Repeats is basically how many times it'll use other websites API's to send likes/retweets/comments/followers. We cannot put an exact amount as our API can be unreliable at times.</p>
+    </div>
+    <div class="list">
+      <ul>
+        <li class="item-content item-input item-input-with-info">
+          <div class="item-inner">
+            <div class="item-title item-label">Tweet URL</div>
+            <div class="item-input-wrap">
+              <input type="url" id="retweets_url" placeholder="Tweet URL" required validate>
+              <span class="input-clear-button"></span>
+              <div class="item-input-info">EG: https://twitter.com/JosephShenton/status/903900955</div>
+            </div>
+          </div>
+        </li>
+        <li class="item-content item-input item-input-with-info">
+          <div class="item-inner">
+            <div class="item-title item-label">Repeats</div>
+            <div class="item-input-wrap">
+              <input type="number" id="retweets_repeats" placeholder="Repeats" required validate>
+              <span class="input-clear-button"></span>
+              <div class="item-input-info">EG: 100</div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <button class="button button-big button-fill" onclick="order_retweets($('#retweets_url').val(), $('#retweets_repeats').val())" id="order_retweets" style="width: 95%; margin-left: auto; margin-right: auto;">Order Retweets</button>
+  </div>
+</div>
