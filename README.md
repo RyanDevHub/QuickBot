@@ -2,10 +2,10 @@
 Open Source Social Media Marketing Tool for Twitter
 --------------------------------------------------------------------------------------------------------------------------------
 
-QuickBot is a very simple bot that uses other third party social media marketing systems to provide follows, likes, retweets and comments WITHOUT you logging in.
+QuickBot is a very simple bot that uses other third party social media marketing systems to provide 
+follows, likes, retweets and comments WITHOUT you logging in.
 
 However we must EXPLAIN a few things. There are a couple requirements! Basic knowledge of how to use the tool.
---------------------------------------------------------------------------------------------------------------------------------
 
 This tool was developed by Ryan Jackson - @RyanDeveloping on Twitter
 --------------------------------------------------------------------------------------------------------------------------------
